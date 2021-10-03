@@ -8,9 +8,9 @@ import java.util.ArrayList;
  */
 public class Tietokanta {
 	
-	private static String connectionString = "jdbc:mysql://localhost:3306/tietokanta";
-	private static String username = "root";
-	private static String password = "eikiinnosta99";
+	private static String connectionString = "jdbc:mysql://us-cdbr-east-04.cleardb.com/heroku_5c452f53fef7214";
+	private static String username = "bf4ac269d86701";
+	private static String password = "b55ad006";
 	private static Connection connection;
 	private static Statement command;
 	private static ResultSet data;
